@@ -1,0 +1,12 @@
+{
+  "name": "bugship-troopers",
+  "version": "0.0.1",
+  "description": "The only good bug is a dead bug. A review-and-gate harness for AI-assisted codebases: verdict lines not exit codes, guards proven to fail without the fix, an invariant ledger, first-pass AI review, and a harness that gets stricter the longer it runs.",
+  "author": {
+    "name": "Site Lumina",
+    "url": "https://github.com/SiteLumina"
+  },
+  "homepage": "https://github.com/SiteLumina/bugship-troopers",
+  "repository": "https://github.com/SiteLumina/bugship-troopers",
+  "keywords": ["code-review", "testing", "gate", "guards", "invariants", "ai-assisted-development"]
+}
