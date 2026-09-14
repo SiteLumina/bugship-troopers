@@ -49,6 +49,6 @@ Node 20 or newer, bash, git. Postgres only if you choose the `postgres-template-
 
 ## Licence
 
-To be announced. Copyright Site Lumina. All rights reserved until a licence is published.
+MIT. See `LICENSE`. Copyright 2026 Site Lumina.
 
 Authored and maintained by Site Lumina.
