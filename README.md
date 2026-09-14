@@ -43,6 +43,10 @@ guards/                      guard packs: core, tenant, money, auth, api-contrac
 docs/                        principles, roadmap, manifest schema, coupling inventory
 ```
 
+## Where it runs
+
+Local by default: the gate runs wherever your coding agent runs. Database isolation is a manifest choice, `none` (your existing test database) or `postgres-template-clone` (a local Postgres; `init` provisions the template). Nothing is installed into your GitHub unless you opt in: `init --ci github` writes a workflow into your own repository that runs the same lane runner on GitHub's runners with a Postgres service container and reports the verdict lines as a check. Reviewer keys go in as repository secrets under the names in your manifest.
+
 ## Requirements
 
 Node 20 or newer, bash, git. Postgres only if you choose the `postgres-template-clone` isolation provider. Reviewer API keys are read from environment variables you name in the manifest; the harness never stores them.
