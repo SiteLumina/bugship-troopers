@@ -4,13 +4,12 @@ Updated 2026-09-15. Parked after Phase 0 while the source project's own queue ta
 
 ## Done
 - Public repository created, MIT licence, scaffold: README, principles (12 rules), roadmap (phases 0 to 4), draft `gate.config.json` schema, plugin manifest, contributing note.
-- Phase 0 coupling scout run against the source harness: `docs/COUPLING-INVENTORY.md` (lands when its public-safety check passes).
 
 ## In progress
 - Nothing. Phase 1 has not started.
 
 ## To do (in order)
-1. Verify and land the coupling inventory; refine `docs/MANIFEST.md` from it.
+1. Phase 0 coupling scout (not yet run): inventory the source harness's hard-coded assumptions, write `docs/COUPLING-INVENTORY.md`, check it for anything that must not be public, refine `docs/MANIFEST.md` from it.
 2. Phase 1 extraction slices (disjoint file ownership, one verifier per slice, every guard with its mutation proof):
    - `bin/gate`: lane runner, verdict-line contract, reversed-order run, capacity lock, failure-block-only contention classifier.
    - `bin/ledger`: placeholder allocation at merge, duplicate and dead-citation checks.
